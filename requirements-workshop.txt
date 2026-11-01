@@ -1,0 +1,15 @@
+gradio>=6,<7
+pandas>=2,<3
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+sentence-transformers>=3,<6
+transformers
+torch>=2.7,<3
+sentencepiece>=0.2,<1
+protobuf>=5,<7
+optuna>=3,<5
+seaborn>=0.13,<1
+bertopic>=0.16,<1
+hdbscan>=0.8,<1
+umap-learn>=0.5,<1
