@@ -1,7 +1,9 @@
-gradio>=6,<7
+gradio>=6.31,<7
 torch>=2.7,<3
 torchvision>=0.22,<1
-transformers>=4.57,<5
+# Gradio 6.31 (including Spaces' MCP/OAuth extras) requires Hub 1.x.
+transformers>=5,<6
+huggingface-hub>=1.16,<2
 datasets>=4,<5
 pillow>=11,<13
 numpy>=1.26,<3

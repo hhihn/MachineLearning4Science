@@ -29,6 +29,11 @@ python -m pip install -r requirements-transfer.txt
 python transfer_app.py
 ```
 
+The transfer lab uses Gradio 6.31+, Transformers 5.x and Hugging Face Hub 1.x.
+For a dedicated Hugging Face Space, use `requirements-transfer.txt` as the Space's
+`requirements.txt` and set its app file to `transfer_app.py`. Transformers 4.x
+requires Hub below 1.0 and conflicts with Gradio 6.31's Hub requirement.
+
 Open the local Gradio URL printed in the terminal (usually http://127.0.0.1:7860).
 No Hugging Face token or GPU is required. Initial downloads are approximately
 177 MB (14.2 MB weights, 144 MB training data, 18.5 MB validation data), plus
